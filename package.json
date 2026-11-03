@@ -1,0 +1,14 @@
+{
+  "name": "common-ground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A real-time team workspace with shared boards, chat, files, and activity.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
